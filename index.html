@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student registration form></title>
+</head>
+<body style="background-color:rgb(239, 184, 238)">
+    <h1>Registration form/Admission form</h1>
+    <form><i>All marked fields are required and must be filled!</i><br><br>
+        <label><b>Personal Details</b></label><br><br>
+        <label>First Name:<span style="color:red ;">*</span></label>
+        <input type="text" placeholder="Enter here" required/><br><br>
+        <label>Middle name:</label>
+        <input type="text" placeholder="Enter here"/><br><br>
+        <label>Last Name:<span style="color:red ;">*</span></label>
+        <input type="text" placeholder="Enter here" required/><br><br> 
+        <label>DOB:<span style="color:red ;">*</span></label>
+        <input type="date"/><br><br>
+        
+        <label>10th marksheet:<span style="color:red ;">*</span></label>
+        <input type="image" alt="add file"/><br><br>
+
+        <label>Course:<span style="color:red ;">*</span></label>
+        <select required>
+            <option>Choose</option>
+            <option>BCA</option>
+            <option>CS</option>
+            <option>ITM</option>
+            <option>ANM</option>
+            <option>BBA</option>
+        </select>
+        <br><br>
+
+        <label><b>Gender:<span style="color:red ;">*</span></b></label><br>
+
+        <input type="radio" name="Male"/>Male<br>
+        <input type="radio" name="Female"/>Female<br>
+        <input type="radio" name="others"/>Rather not to say<br><br>
+
+        <label><b>Contact no:</b><span style="color:red ;">*</span></label>
+        <input type="text" name="country code" value="+91" size="2"/>
+        <input type="text" name="phone number" size="10" placeholder="Enter number" required/>
+        <br><br>
+        <label><b>Email:</b><span style="color:red ;">*</span></label>
+        <input type="email" placeholder="Enter here" required/><br><br>
+        <label><b>Address:</b></label><br>
+        <textarea cols="40" rows="3" ></textarea>
+        <br><br>
+        
+        <label>Create Password:</label>
+        <input type="password" placeholder="Enter here" name="pass" required/><br><br>
+
+        <label>Confirm Password:</label>
+        <input type="password" placeholder="Re-enter here" name="repass"/><br><br>
+
+        <input type="submit"/>
+        <input type="reset"/>
+    </form>
+</body>
+</html>
